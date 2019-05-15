@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addTodo, toggleComplete } from '../actions';
+import './TodoList.css';
 
 class TodoList extends React.Component {
   state = {

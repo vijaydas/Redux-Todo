@@ -2,10 +2,8 @@ import { ADD_TODO, TOGGLE_COMPLETE } from "../actions";
 
 const initialState = {
   todos: [
-    { value: "Meal prep", completed: false, id: 0 },
-    { value: "Buy groceries", completed: false, id: 1 }
-  ],
-  count: 1
+    ],
+  count: 0
 };
 
 function reducer(state = initialState, action) {
